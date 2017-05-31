@@ -1,0 +1,223 @@
+/* Universal Styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: Ubuntu;
+}
+
+body {
+
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #494949;
+  margin: 0;
+}
+
+h4 {
+  font-size: 1.5rem;
+  color: #494949;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+
+header {
+  max-width: 100%;
+  background-color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 2.5rem;
+}
+
+.logo .colmar {
+  font-weight: 500;
+  color: #494949;
+}
+
+.logo .academy {
+  color: #a8a8a8;
+}
+
+header nav {
+  color: #494949;
+}
+
+header .desktop span {
+  padding-left: 1rem;
+}
+
+header .mobile {
+  display: none;
+}
+
+/* Banner & CTA */
+
+.banner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #d8d8d8;
+}
+
+.banner img {
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.banner .cta {
+  width: 25.5%;
+  padding: 1rem;
+}
+
+.cta h2 {
+  font-size: 2.5rem;
+  color: #494949;
+}
+
+.cta h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #494949;
+}
+
+.start-btn {
+  background-color: #494949;
+  height: 2rem;
+  padding: 0.5rem 2rem;
+  color: white;
+}
+
+/* Information */
+
+.information {
+  background-color: #f4f4f4;
+  display: flex;
+  width: 100%;
+}
+
+.information .main {
+  width: 60%;
+  padding: 2rem 1.5rem;
+  line-height: 1.5;
+}
+
+.information .main img {
+  max-width: 100%;
+  padding-bottom: 2rem;
+}
+
+.information .main p {
+  color: #808080;
+}
+
+.information .main span {
+  color: #494949;
+  padding: 1rem 0;
+}
+
+.information .supporting {
+  width: 423px;
+  border-left: 1px solid #d8d8d8;
+}
+
+.supporting img {
+  max-width: 35%;
+  padding-right: 1rem;
+}
+
+.supporting .details {
+  display: flex;
+  flex-direction: column;
+}
+
+.supporting .details h4, p, span {
+  margin: auto 0;
+}
+
+.supporting .details p, span {
+  color: #808080;
+}
+
+.supporting .details a {
+  color: #0099ff;
+}
+
+.supporting .article {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+}
+
+.supporting .article:first-child {
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.supporting .article:last-child {
+  background-color: #d8d8d8;
+}
+/* Learning Section */
+
+.learning {
+  background-color: #eaebed;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 100%;
+}
+.learning h2 {
+  padding: 2rem 0;
+  margin: 0;
+  text-align: center;
+}
+.classes {
+  max-width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.course {
+  background-color: #ffffff;
+  margin: 2rem;
+  max-width: 25%;
+}
+
+.course img {
+  max-width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;;
+  padding: .5rem 1rem 1rem 1rem;
+}
+
+.content h4, h5, p {
+  margin: 0;
+  padding: .5rem 0;
+}
